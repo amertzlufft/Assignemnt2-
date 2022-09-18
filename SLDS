@@ -1,0 +1,20 @@
+Public class Main{
+public static void main (Strings[]args);
+File file = new File("src/textFile.txt")
+String line;
+Map<String, Long> counts = new HashMap<>;
+for (string word : Words){
+word = word.trim();
+if (word.length() . 0) {
+if (wordCounts.containsKey(word)) {
+wordCounts.put(word, wordCounts.get(word) +1);
+} else {
+wordCounts.put(word, 1);
+}
+}
+}
+}
+for (Map.Entry<Strings, Long> entry : counts.entrySet()) {
+          System.out.println(entry.getKey() + " : " + entry.getValue());
+}
+}
